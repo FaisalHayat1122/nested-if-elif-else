@@ -1,0 +1,17 @@
+print("******Multiple App Player******")
+select=int(input("Select An App You Want To Work: \1. Calculator: \n2. Studemt Marksheet: \n3.Student ID Card: \n4.Student "))
+
+if select==1:
+    name=input("Enter Your Name")
+    num1=eval(input("Enter num1 To proceed"))
+    num2=eval(input("Enter num2 To proceed"))
+    method=input("What you w1ant to do?: \n1.Addition \n2.Subtraction \n3.Division \n4. Multiply")
+    if method=="1":
+        print(f"This is your adddition: {num1+num2}")
+    elif method=="2":
+        print(f"This is your Subtraction:{num1-num2}")
+    else:
+        print("Invalid Inpput")
+    
+else:
+    print("Invalid Input")
